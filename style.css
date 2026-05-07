@@ -6,12 +6,7 @@
 /* Font Face Declarations */
 @font-face {
     font-family: 'Horizon';
-    src: url('./Horizon-Font/Horizon.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'Montserrat';
-    src: url('./montserrat.regular.otf') format('opentype');
+    src: url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap');
 }
 
 /* Root Variables */
@@ -41,7 +36,7 @@ html {
 }
 
 body {
-    font-family: 'Horizon', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     background-color: var(--bg-color);
     background-image: url('./assets\ 2/bg.jpg');
     background-size: cover;
@@ -50,14 +45,6 @@ body {
     color: var(--text-primary);
     line-height: 1.6;
     overflow-x: hidden;
-}
-
-p, .news-excerpt {
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Horizon', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 /* ============================================
@@ -115,7 +102,6 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0.5px;
     transition: var(--transition);
     position: relative;
-    font-family: 'Horizon', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 .nav-link:hover,
@@ -214,7 +200,6 @@ main {
     border-bottom: 2px solid var(--primary-color);
     padding-bottom: 1rem;
     text-transform: uppercase;
-    font-family: 'Horizon', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 /* ============================================
